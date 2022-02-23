@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBLIGATORIO 1</title>
+    <link rel="shortcut icon" href="img/logo.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <nav>
+        <img src="img/logo.svg" alt="logo bike">
+    </nav>
+    <header>
+        <div class="contenedor">
+            <div>
+                <h1>una bici para ti.</h1>
+                <p>Ingresa dos ciudades y se comparará cual es la más recomendable para poder salir <br> a turistear en bicicleta. 
+                Los párametros a tener en cuenta serán viento, humedad, <br> precipitaciones y temperatura actual.</p>
+                <b><p>Que disfrutes tu paseo!</p></b>
+            </div>
+            <div class="forms">
+                <div>
+                    <label for="txtCiudad1">Ciudad 01:</label>
+                    <input type="text" placeholder="Ingrese una ciudad" id="txtCiudad1">
+                </div>
+                <div>
+                    <label for="txtCiudad2">Ciudad 02:</label>
+                    <input type="text" placeholder="Ingrese una ciudad" id="txtCiudad2">
+                </div> 
+                <span id="comprobacion"></span>
+            </div>
+            <a href="#" class="cta"id="btnComparar">Comparar</a>
+            <div id="loader">
+                <img src="img/spinner.gif" alt="">
+            </div>
+            <p id="infoRecomendacion"></p>
+        </div> 
+        
+        
+    </header>
+    <section id="informacion">
+        <div class="contenedor">
+            <article id="resumenClima"></article>
+            <div id="ampliacionDias"></div>
+        </div>
+
+    </section>
+
+    <script src="codigo.js"></script>
+</body>
+</html>

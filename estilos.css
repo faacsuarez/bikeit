@@ -1,0 +1,208 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+img, svg {
+	max-width: 100%;
+}
+
+body {
+    /*font-family: "Helvetica Neue", "Helvetica Neue Light", sans-serif;*/
+    /*font-family: Helvetica, sans-serif;*/
+    font-family: 'Heebo', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    background-color: #a5dff5;
+    height: 60px;
+}
+
+nav img {
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    font-size: 3.6em;
+    text-shadow: 1px 3px 6px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.01em;
+}
+
+h2 {
+    font-size: 2.4em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.forms ::placeholder {
+    padding-left: 10px;
+}
+.contenedor {
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cta {
+    background-color: #ff844b;
+    text-align: center;
+    padding: 12px 22px;
+    cursor: pointer;
+    color: #F8FAFB;
+    font-weight: bold;
+    border-radius: 3px;
+    transition: ease 0.5s;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.cta:hover {
+    transform: translate(0px, -5px);
+}
+
+header {
+    background: linear-gradient(45deg, black, transparent),url(img/header.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    color: white;
+}
+
+header div:nth-child(1) {
+    padding: 20px 0;
+}
+header .forms{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header .forms > div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+input {
+    opacity: 0.8;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: 44px;
+    padding-left: 10px;
+}
+
+label {
+    padding-bottom: 5px;
+    text-align: left;
+    font-size: 1.1em;
+}
+
+
+#informacion {
+    color: white;
+}
+
+
+#resumenClima img {
+    width: 30%;
+}
+
+#ampliacionDias img {
+    width: 7%;
+}
+
+#informacion .contenedor {
+    padding: 30px;
+}
+
+
+
+.infoProlongada {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.infoProlongada div {
+    display: flex;
+}
+
+.infoProlongada div p:nth-child(2){
+    margin-left: 10px;
+    opacity: 0.7;
+}
+
+.ambos {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 25px 0px;
+    text-align: center;
+}
+
+.hola:nth-child(3){
+    text-align: center;
+}
+
+#resumenClima {
+    padding-top: 20px;
+}
+#resumenClima div:nth-child(3) {
+    text-align: center;
+}
+
+#resumenClima div:nth-child(3) {
+    margin: 10px 0;
+}
+
+#resumenClima div:nth-child(9) {
+    text-align: center;
+}
+
+#infoRecomendacion {
+    display: block;
+    padding: 25px 0px;
+}
+
+#infoRecomendacion b {
+    font-size: 1.3em;
+}
+
+
+@media all and (min-width:768px){
+    header .forms{
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+}
+
+
+/* estilos a partir de escritorio*/
+
+@media screen and (min-width:1200px){
+    #resumenClima img {
+        width: 30%;
+    }
+    
+    #ampliacionDias img {
+        width: 9%;
+    }
+    #informacion .contenedor {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+}
