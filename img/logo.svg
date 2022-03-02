@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5F4345;}
+	.st1{fill:none;stroke:#5F4345;stroke-width:7;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#5F4345;stroke-width:6;stroke-miterlimit:10;}
+	.st3{fill:#FFFFFF;stroke:#5F4345;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#5F4345;stroke-width:3;stroke-miterlimit:10;}
+	.st5{fill:#D6D6D6;}
+	.st6{fill:#FFFFFF;}
+	.st7{fill:#C7CDD1;}
+	.st8{fill:url(#SVGID_1_);}
+	.st9{fill:url(#SVGID_2_);}
+	.st10{fill:#AEB7BA;}
+	.st11{fill:#FED14E;}
+	.st12{fill:#498BB7;}
+	.st13{fill:none;stroke:#FFFFFF;stroke-width:5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st14{font-family:'TypoGrotesk-Bold';}
+	.st15{font-size:76.8804px;}
+	.st16{fill:url(#SVGID_3_);}
+</style>
+<g>
+	<circle id="cuerpo" class="st0" cx="104.3" cy="83.3" r="12.9"/>
+	<path id="torzo" class="st1" d="M100,119.3c0,0-44.2,10.2-24.2-36.3c0,0-40.5-6.3-72.2,35.5c-1.1,1.4-0.6,3.4,0.9,4.3
+		c8.3,4.6,31.5,22,35.3,75.4"/>
+	<circle class="st2" cx="-30" cy="185.6" r="41"/>
+	<line class="st4" x1="-30" y1="185.6" x2="5.5" y2="206.1"/>
+	<line class="st4" x1="-30" y1="185.6" x2="5.5" y2="165.2"/>
+	<g id="derecha">
+		<circle class="st2" cx="109" cy="185.6" r="41"/>
+		<circle class="st3" cx="109" cy="185.6" r="4.3"/>
+		<line class="st4" x1="109" y1="185.6" x2="109" y2="144.7"/>
+		<line class="st4" x1="109" y1="185.6" x2="73.6" y2="165.2"/>
+		<line class="st4" x1="109" y1="185.6" x2="73.6" y2="206.1"/>
+		<line class="st4" x1="109" y1="185.6" x2="109" y2="226.6"/>
+		<line class="st4" x1="109" y1="185.6" x2="144.5" y2="206.1"/>
+		<line class="st4" x1="109" y1="185.6" x2="144.5" y2="165.2"/>
+	</g>
+</g>
+<text transform="matrix(1 0 0 1 184.252 102.282)"><tspan x="0" y="0" class="st0 st14 st15">bi</tspan><tspan x="0" y="70.5" class="st0 st14 st15">ke</tspan><tspan x="0" y="141" class="st0 st14 st15">rs</tspan></text>
+</svg>
